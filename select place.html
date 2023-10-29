@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Checkbox Example</title>
+</head>
+<body bgcolor=grey text=white>
+<body>
+<h2>One Day Trip:</h2>
+<label for="travel.destination"></label>
+<select id="travel destination">name="travel.destination">
+<option value="pallaruvi falls">Pallaruvi Falls</option>
+<option value="munnar">Munnar</option>
+<option value="alappuzha">Alappuzha</option>
+<option value="wayanad">Wayanad</option>
+<option value="kozhikode">Kozhikode</option>
+<option value="trissur">Trissur</option>
+</select>
+<h2>Two Day Trip:</h2>
+<h3>Select any Two Places</h3>
+<label for="myCheckbox">Trissur</label>
+<input type="checkbox"id="myCheckbox"name="myCheckbox"><br>
+<label for="myCheckbox">Wayanad</label>
+<input type="Checkbox"id="myCheckbox"name="myCheckbox"><br>
+<label for="myCheckbox">Alappuzha</label>
+<input type="Checkbox"id="myCheckbox"name="myCheckbox"><br>
+<label for="myCheckbox">Kozhikode</label>
+<input type="Checkbox"id="myCheckbox"name="myCheckbox"><br>
+<label for="myCheckbox">Munnar</label>
+<input type="Checkbox"id="myCheckbox"name="myCheckbox"><br>
+<label for="myCheckbox">Pallaruvi</label>
+<input type="checkbox" id="myCheckbox"name="myCheckbox">
+<script>
+function showSuccessMessage(){
+alert("Your trip is registered successfully! Have Happy Journey..");
+}
+</script>
+<form action="process_registration.php" method="post">
+<input type="submit" value="submit" onclick="showSuccessMessage()">
+</body>
+</form>
+</html>

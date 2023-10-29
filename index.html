@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+ <html>
+<head>
+<title>KERALA TRIP</title>
+<style>
+body{
+margin:0;
+padding:0;
+background-color:sandal;
+}
+header{
+background-color:grey;
+border -radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.7);
+color:white;
+text-align:center;
+padding:1rem 10px;
+position:relative;
+}
+.header-content h1{
+font-size:2.2rem;
+font-family:Showcard Gothic;
+}
+h2{
+color:white;
+text-align:center;
+font-family:monotype corsiva;
+}
+h3
+{
+font-family:perpetua;
+}
+h4
+{
+font-family:showcard gothic;
+}
+.nature{
+width:200px;
+height:200px;
+border-radius:77%;
+object-fit:cover;
+position:absolute;
+top:45px;
+  left:100px;
+}
+nav{
+background-color:grey;
+color:white;
+text-align:center;
+}
+nav ul{
+list-style-type:square;
+padding:2px;
+}
+nav ul li{
+display:inline;
+margin:2px;
+}
+nav ul li a{
+font-family:castellar;
+text-decoration:overline;
+color:white;
+}
+.section-content{
+background-color:grey;
+padding:2rem;
+margin:1rem;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.7);
+}
+.start a trip-button{
+background-color:black;
+color:white;
+padding:2rem 2rem;
+text-decoration:underline;
+display:inline-block;
+margin-top:20px;
+}
+.start a trip-button:hover{
+background-color:pink;
+color:yellow;
+}
+footer{
+text-align:center;
+padding:2rem 0;
+background-color:grey;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.7);
+color:brown;
+}
+ul{
+list-style-type:circle;
+margin:2;
+padding-left:2px;
+}
+.places{
+padding:2rem;
+margin:1rem;
+}
+p{
+font-size;1rem;
+margin:2rem;
+font-family:Harlow Solid;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="header-content">
+<h1>KERALA TRIP</h1>
+<h4>Love Nature,Make Captures</h4>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="nature"><h2>Kollam Adventures</h2></a></li>
+</ul>
+</nav>
+<section id="trips">
+<div class="section-content">
+<h2>All about Kerala Trips..</h2>
+<p>Hello Guys....(Hii)</p>
+<p>Are you ready..!</p>
+<p>A nature trip is going to happen..!!</p>
+
+<p>If you were a Nature and Travel lover register now..</p>
+</div>
+</section>
+<section id="amount">
+<div class="section-content">
+<h2>Amount</h2>
+<p>One Day Trip="1,500"</p>
+<p>Two Day Trip="3,000"</div>
+</section>
+<section id="trip amount">
+<div class="section-content">
+<center>
+<section id="contact">
+<div class="section-content">
+<h2>Contacts Details:</h2>
+<p>Mobile.no:9945678322</p>
+<p>Email Address: keralatripskollam@gmail.com</p>
+</div>
+</section>
+</center>
+<section id="register">
+<center>
+<div class="download-button">
+<a href="select place.html"alt="book a trip"class="register-button">book a trip</a>
+</div>
+</center>
+</section>
+<footer>
+<p>&copy Kerala trips</p>
+</footer>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+anchor.addEventListener('click',function(e){
+e.preventDefault();
+const targetId=this.getAttribute('href').substring(1);
+const targetElement=document.getElementById(targetId);
+if(targetElement){
+window.scrollTo({
+top:targetElement.offsetTop,
+behavior:'smooth'
+});
+}
+});
+});
+</script>
+</body>
+</html>
